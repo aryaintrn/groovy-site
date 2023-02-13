@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -22,13 +21,21 @@ a{
 
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 a{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
 }
 
 header h1{
     float: left;
     padding: 15px 0;
     color: #338CFF;
+    
 }
 
 header ul{
@@ -42,11 +49,18 @@ header ul li{
 header ul li a{
     display: block;
     padding: 25px 20px;
+    font-family: 'Comic Neue', cursive;
 }
 
 header ul li a:hover{
     background-color: #338CFF;
     color: #ffffff;
+}
+
+.container img{
+    border: 1px solid #338CFF;
+    width: 10%;
+    height: 10%;
 }
 
 .active{
@@ -104,6 +118,8 @@ section h3{
     color: #000000;
     word-spacing: 2px;
     line-height: 25px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
 }
 
 /* END ABOUT */
